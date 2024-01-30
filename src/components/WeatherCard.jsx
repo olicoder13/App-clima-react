@@ -21,8 +21,8 @@ const WeatherCard = ({ wheather, temp, setTextInput, hasError }) => {
     <section className="weather">
       <h1 className="weather__title">Weather App</h1>
       <form className="weather__form" onSubmit={handleForm}>
-        <input type="text" ref={city} />
-        <button>Search</button>
+        <input type="text" placeholder="City" ref={city} />
+        <button className="form__btn">Search</button>
       </form>
       {hasError ? (
         <>

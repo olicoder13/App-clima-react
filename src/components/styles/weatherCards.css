@@ -3,7 +3,7 @@
 
 
 .weather{
-    background-color: #fff9;
+    background-color: #0F0F0f90;
     padding: 30px;
     border-radius: 30px;
     display: flex;
@@ -14,6 +14,22 @@
 
 .weather__title{
     font-size: 2.5rem;
+}
+
+.weather__form{
+    display: flex;
+    gap: 10px;
+}
+
+.form__btn{
+    padding: 3px 5px;
+    background-color: rgba(24, 21, 230, 0.954);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.weather__form input {
+    text-align: center;
 }
 
 .weather__city{
